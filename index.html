@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>HTML Basics</title>
+        <link rel="icon" type="image/ico" href="images/favicon.ico">
     </head>
 
     <body>
@@ -63,7 +64,7 @@
             <p><b><i>Please see some examples:</i></b></p>
 
             <a href="https://google.com", target="_blank" title="This external link goes to Google">
-                Click me to a external link.
+                <b><mark>Click me to a external link.</mark></b>
             </a>
             <br>
                 <pre>For the external link above We used the following HTML code.<br>
@@ -78,7 +79,7 @@
                 </pre>
 
             <a href="lyrics.html", target="_blank", title="This internal link goes to the page HTML Basic Exercises Lyrics">
-            HTML Basic Exercises Lyrics 
+            <b><mark>HTML Basic Exercises Lyrics</mark></b> 
             </a>
             <pre>For the internal link above We used the following HTML code.<br>
                 <b>&lt;a</b> <b>href=</b>"lyrics.html" <b>target=</b>"_blank" ,<b>title=</b>"This internal link goes to our Lyrics page">
@@ -88,7 +89,8 @@
                 </a>
             </pre>
         
-            <a href="mailto:no@no.com">Send email to:</a>
+            <a href="mailto:no@no.com">
+                <b><mark>Send email to:</mark></b></a>
             <pre>For the email link above we used the folling HTML code:
                 <b>&lt;a href="mailto:no@no.com"</b>&gt;Send email to:</a>
                 <b>&lt;/a></b>
@@ -162,16 +164,48 @@
             <source src="audios\Lazy Laura - Quincas Moreira.wav">
         </audio>
 
+        <h3>Please see the HTML code below</h3>
+
+        <pre>
+            &lt;audio controls loop&gt;
+            &lt;source src="audios\Girl On Top - Amy Lynn & the Honeymen.mp3"&gt;
+            &lt;source src="audios\Girl On Top - Amy Lynn & the Honeymen.wave"&gt;
+            &lt;/audio&gt;
+
+            &lt;p&gt;Hotlanta - Track Tribe&lt;/p&gt;
+            &lt;audio controls loop&gt;
+            &lt;source src="audios\Hotlanta - Track Tribe.mp3"&gt;
+            &lt;source src="audios\Hotlanta - Track Tribe.wave"&gt;
+            &lt;/audio&gt;
+
+            &lt;p&gt;Lazy Laura - Quincas Moreira&lt;/p&gt;
+            &lt;audio controls loop&gt;
+            &lt;source src="audios\Lazy Laura - Quincas Moreira.mp3"&gt;
+            &lt;source src="audios\Lazy Laura - Quincas Moreira.wav"&gt;
+            &lt;/audio&gt;
+        </pre>
+
     <hr>
-        <h3>&lt;video> - How to add video using HTML</h3>
+        <h3>&lt;video> How to add video using HTML</h3>
             <video controls autoplay muted loop height="300">
                 <source src="images\Videos\ABIGAIL ARCANE - DC COMICS ENCYCLOPEDIA - [TWO SAMURAIS].mp4">
             </video>
+        
+        <pre>
+            &lt;h3&gt;&amp;lt;video&amp;gt; How to add video using HTML&amp;lt;/h3&gt;
+            &lt;video controls autoplay muted loop height="300"&gt;
+            &lt;source src="images\Videos\ABIGAIL ARCANE - DC COMICS ENCYCLOPEDIA - [TWO SAMURAIS].mp4"&gt;
+            &lt;/video&gt;
+        </pre>
             
 
     <hr>
         <h3>&lt;image> - How to add a favicon icon using HTML</h3>
-            <link rel="icon" type="image/ico" href="images/favicon.ico">
+            <pre>
+                &lt;head&gt;
+                &lt;link rel="icon" type="image/ico" href="images/favicon.ico"&gt;
+                &lt;/head&gt;
+            </pre>
 
         
     <hr>
@@ -186,6 +220,19 @@
             <p>This is a <sub></sub> Text</p>
             <p>This is a <sup>superscript</sup> Text</p>
             <p>This is a <mark>marked</mark> Text</p>
+
+            <pre>
+                &lt;p&gt;This is a normal Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;b&gt;Bold&lt;/b&gt; Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;i&gt;italic&lt;/i&gt; Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;u&gt;underline&lt;/u&gt; Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;del&gt;deleted&lt;/del&gt; Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;big&gt;big&lt;/big&gt; Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;small&gt;small&lt;/small&gt; Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;sub&gt;&lt;/sub&gt; Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;sup&gt;superscript&lt;/sup&gt; Text&lt;/p&gt;
+                &lt;p&gt;This is a &lt;mark&gt;marked&lt;/mark&gt; Text&lt;/p&gt;
+            </pre>
 
     
     <hr>
