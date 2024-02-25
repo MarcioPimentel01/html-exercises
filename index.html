@@ -1,245 +1,30 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTML Basics</title>
-        <link rel="icon" type="image/ico" href="images/favicon.ico">
-    </head>
 
-    <body>
-        <h1>HTML Basics</h1>
-            
-            <hr>
-            <h3>&lt;h#&gt; </h3>
-            <p>In HTML, the &lt;h#&gt; (where # is a number from 1 to 6) stands for "heading." 
-            The &lt;h#&gt; elements are used to define headings on a web page, and they represent different 
-            levels of hierarchy.</p>
+<head>
+    <title>HTML Basics</title>
+    <h1 aligin="center"></h1>
+    <link rel="icon" type="ico" href="images/favicon.ico">
+</head>
 
-            <h1>This is a h1 Heading</h1>
-            <h2>This is a h2 Heading</h2>
-            <h3>This is a h3 Heading</h3>
-            <h4>This is a h4 Heading</h4>
-            <h5>This is a h5 Heading</h5>
-            <h6>This is a h6 Heading</h6>
-
-            <hr>
-
-            <h3>&lt;hr&gt;
-            </h3>
-            <p> The &lt;hr&gt; element is used to represent a thematic break or a horizontal line in the content 
-                of a web page. It is a self-closing tag, meaning it doesn't have a closing tag.</p>
-
-            <hr>
-            <h3>&lt;p&gt; Paragraph</h3>
-            <p>In HTML, &lt;p&gt; stands for "paragraph." The &lt;p&gt; element is used to define a paragraph 
-                of text on a web page. It is a block-level element, meaning it creates a new block or section on the page.</p>
-
-            <hr>
-            <h3>&lt;pre&gt; Preformatted text</h3>
-            <pre>                     In HTML, The &lt;pre&gt; element is used to define preformatted text, 
-                     where both spaces and line breaks are displayed exactly as they appear in 
-                     the HTML code. It is a block-level element, and its primary purpose is to 
-                     preserve both whitespace and line breaks.</pre>
-
-            <hr>
-            <h3>&lt;p&gt; Followed by the word <i>Lorem</i>, adds written content</h3>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ea, perspiciatis ullam hic 
-                deleniti minus asperiores cumque temporibus, ut quasi inventore quisquam. Nostrum ab quis 
-                autem hic perspiciatis maxime adipisci!</p>
-
-            <hr>
-            <h3>&lt;br&gt; Line break</h3>
-            <p>The &lt;br&gt; element is used to insert a line break within the text content of an 
-                HTML document. It is a self-closing tag, meaning it doesn't have a closing tag.</p>
-                <p>This is some text.</p>
-                <p>This text is on a new line because of the line break.
-                <br>This text is on the same line as the line break.</p>
-                <p>This is another paragraph.</p>
-
-            <hr>
-            <h3>&lt;a&gt; Anchor</h3>
-            <p>The &lt;a&gt; element is used to create hyperlinks, allowing you to link to other web pages, 
-                resources, or locations within the same document. <br>The <b>href</b> attribute in the &lt;a&gt; element 
-                specifies the URL or destination of the link.</p>
-            <p><b><i>Please see some examples:</i></b></p>
-
-            <a href="https://google.com", target="_blank" title="This external link goes to Google">
-                <b><mark>Click me to a external link.</mark></b>
-            </a>
-            <br>
-                <pre>For the external link above We used the following HTML code.<br>
-                    <b>&lt;a</b> <b>href=</b>"https://google.com" <b>target=</b>"_blank" ,<b>title=</b>"This external link goes to Google">
-                        Click me to a external link.
-                        <b>&lt;/a></b>
-                    </a>
-                    <p>As you already knows the <b>href</b> attribute in the &lt;a&gt; element specifies the URL or destination of the link.</p>    
-                    <p><b>target=</b>"_blank"</p>When a user clicks on a link with <b>target="_blank"</b>, the linked content will open in a new browsing context, separate<br>from the current page.
-                    
-                    <p><b>title=""</b> When a user hovers over a link, the text specified in the title attribute is displayed as a tooltip,<br>giving more context or a brief description of the linked page or resource.</p>
-                </pre>
-
-            <a href="lyrics.html", target="_blank", title="This internal link goes to the page HTML Basic Exercises Lyrics">
-            <b><mark>HTML Basic Exercises Lyrics</mark></b> 
-            </a>
-            <pre>For the internal link above We used the following HTML code.<br>
-                <b>&lt;a</b> <b>href=</b>"lyrics.html" <b>target=</b>"_blank" ,<b>title=</b>"This internal link goes to our Lyrics page">
-                    Click me to a external link.
-                    <b>&lt;/a></b>
-
-                </a>
-            </pre>
-        
-            <a href="mailto:no@no.com">
-                <b><mark>Send email to:</mark></b></a>
-            <pre>For the email link above we used the folling HTML code:
-                <b>&lt;a href="mailto:no@no.com"</b>&gt;Send email to:</a>
-                <b>&lt;/a></b>
-            </pre>
+<body>
+    <h1 align="center">HTML Basics</h1>
 
     <hr>
-        
-        <h3>&lt;img&gt; Add Images</h3>
-        <p>The <b>&lt;img></b> tag in HTML is used to embed images in a web page.<br>Here's a basic example of how the &lt;img> tag is typically used:</p>
-        
-        <h2>Golden Retriver</h2>    
-        <img src="images\golden-retriever-puppy.jpg", 
-            height="300",
-            alt="This is a picture of a Golden Retriver">
-        <h4>The Golden Retriver is a very good dog.</h4>
 
-        <h4>HTML IMAGE CODE</h4>
-            <pre>
-                <b>&lt;h2></b>Golden Retriver&lt;/h2>    
-                <b>&lt;img src=</b>"images\golden-retriever-puppy.jpg", 
-                <b>height=</b>"300",
-                <b>alt=</b>"This is a picture of a Golden Retriver">
-                <b>&lt;h4></b>The Golden Retriver is a very good dog.<b>&lt;/h4></b>
-            </pre>
+    <ul>
+        <a href="heading.html"><li>Heading</li></a>
+        <a href="breake-horizontal-line.html"><li>Break or horizontal line</li></a>
+        <a href="paragraph.html"><li>Paragraph</li></a>
+        <a href="preformatted-text.html"><li>Preformatted text</li></a>
+        <a href="lorem.html"><li>Preformatted text- add Lorem written content</li></a>
+        <a href="line-breake.html"><li>Line Break</li></a>
+        <a href="anchor.html"><li>Anchor</li></a>
+        <a href="add-images.html"><li>Add Images</li></a>
+        <a href="add-audios.html"><li>Add Audio</li></a>
+        <a href="add-videos.html"><li>Add Video</li></a>
+        <a href="add-favicon.html"><li>Add Favicon</li></a>
+        <a href="add-formatted-text.html"><li>Add Formatted Text</li></a>
+         
+    </ul>
 
-    
-        <h2>Gif example</h2>
-        <img src="images/dog_gif.gif",
-            height="300",
-            alt="That is a gif of a very happy dog!">
-        <h4>Gif of a joyful dog!</h4>
-        <br><br>
-
-        
-        <h2>Gif example</h2>
-        <pre>
-            <b>&lt;h2></b>Golden Retriver&lt;/h2>    
-            <b>&lt;img src=</b>"images/dog_gif.gif", 
-            <b>height=</b>"300",
-            <b>alt=</b>"This is a picture of a Golden Retriver">
-            <b>&lt;h4></b>Gif of a joyful dog!.<b>&lt;/h4></b>
-        </pre>
-
-        
-        <p><b>Explanation of the attributes:</b><br>
-        <b>src:</b> This attribute specifies the source (URL or file path) of the image. In the example, it's set to "image.jpg,"<br>
-        but you would replace it with the actual path or URL of your image.<br><br>
-
-        <b>alt:</b> This attribute provides alternative text for the image. It is displayed if the image cannot be loaded or is read<br>
-        by screen readers for accessibility. It's considered good practice to include descriptive alt text.
-        </p>
-    
-    <hr>
-        <h3>&lt;audio> How to insert audio files using HTML</h3> 
-
-        <p>Girl On Top - Amy Lynn & the Honeymen</p>
-        <audio controls loop>
-            <source src="audios\Girl On Top - Amy Lynn & the Honeymen.mp3">
-            <source src="audios\Girl On Top - Amy Lynn & the Honeymen.wave">               
-        </audio>
-
-        <p>Hotlanta - Track Tribe</p>
-        <audio controls loop>
-            <source src="audios\Hotlanta - Track Tribe.mp3">
-            <source src="audios\Hotlanta - Track Tribe.wave">
-        </audio>
-
-        <p>Lazy Laura - Quincas Moreira</p>
-        <audio controls loop>
-            <source src="audios\Lazy Laura - Quincas Moreira.mp3">
-            <source src="audios\Lazy Laura - Quincas Moreira.wav">
-        </audio>
-
-        <h3>Please see the HTML code below</h3>
-
-        <pre>
-            &lt;audio controls loop&gt;
-            &lt;source src="audios\Girl On Top - Amy Lynn & the Honeymen.mp3"&gt;
-            &lt;source src="audios\Girl On Top - Amy Lynn & the Honeymen.wave"&gt;
-            &lt;/audio&gt;
-
-            &lt;p&gt;Hotlanta - Track Tribe&lt;/p&gt;
-            &lt;audio controls loop&gt;
-            &lt;source src="audios\Hotlanta - Track Tribe.mp3"&gt;
-            &lt;source src="audios\Hotlanta - Track Tribe.wave"&gt;
-            &lt;/audio&gt;
-
-            &lt;p&gt;Lazy Laura - Quincas Moreira&lt;/p&gt;
-            &lt;audio controls loop&gt;
-            &lt;source src="audios\Lazy Laura - Quincas Moreira.mp3"&gt;
-            &lt;source src="audios\Lazy Laura - Quincas Moreira.wav"&gt;
-            &lt;/audio&gt;
-        </pre>
-
-    <hr>
-        <h3>&lt;video> How to add video using HTML</h3>
-            <video controls autoplay muted loop height="300">
-                <source src="images\Videos\ABIGAIL ARCANE - DC COMICS ENCYCLOPEDIA - [TWO SAMURAIS].mp4">
-            </video>
-        
-        <pre>
-            &lt;h3&gt;&amp;lt;video&amp;gt; How to add video using HTML&amp;lt;/h3&gt;
-            &lt;video controls autoplay muted loop height="300"&gt;
-            &lt;source src="images\Videos\ABIGAIL ARCANE - DC COMICS ENCYCLOPEDIA - [TWO SAMURAIS].mp4"&gt;
-            &lt;/video&gt;
-        </pre>
-            
-
-    <hr>
-        <h3>&lt;image> - How to add a favicon icon using HTML</h3>
-            <pre>
-                &lt;head&gt;
-                &lt;link rel="icon" type="image/ico" href="images/favicon.ico"&gt;
-                &lt;/head&gt;
-            </pre>
-
-        
-    <hr>
-        <h3>How to add formated text using HTML</h3>
-            <p>This is a normal Text</p>
-            <p>This is a <b>Bold</b> Text</p>
-            <p>This is a <i>italic</i> Text</p>
-            <p>This is a <u>underline</u> Text</p>
-            <p>This is a <del>deleted</del> Text</p>
-            <p>This is a <big>big</big> Text</p>
-            <p>This is a <smal>small</smal> Text</p>
-            <p>This is a <sub></sub> Text</p>
-            <p>This is a <sup>superscript</sup> Text</p>
-            <p>This is a <mark>marked</mark> Text</p>
-
-            <pre>
-                &lt;p&gt;This is a normal Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;b&gt;Bold&lt;/b&gt; Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;i&gt;italic&lt;/i&gt; Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;u&gt;underline&lt;/u&gt; Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;del&gt;deleted&lt;/del&gt; Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;big&gt;big&lt;/big&gt; Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;small&gt;small&lt;/small&gt; Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;sub&gt;&lt;/sub&gt; Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;sup&gt;superscript&lt;/sup&gt; Text&lt;/p&gt;
-                &lt;p&gt;This is a &lt;mark&gt;marked&lt;/mark&gt; Text&lt;/p&gt;
-            </pre>
-
-    
-    <hr>
-        <h3></h3>
-
-    
-    </body>
-
-
-</html>
+</body>
