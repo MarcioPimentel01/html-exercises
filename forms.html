@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="icon" type="image/ico" href="images/favicon.ico">
+</head>
+<body>
+    <h1 align="center">How to create a Form</h1>
+    <hr>
+    <form action="index.php" method="post" enctype="multipart/form-data">
+        <lable for="name">Name:</lable>
+        <input type="text" id="name" placeholder="Full name" minlength="6" maxlength="50" required><br><br>
+      
+        <label for="password">Password</label>
+        <input type="password" id="password" placehoder="Please type you password" minlength="8" maxlength="15" required><br><br>
+
+        <label for="email">email:</label>
+        <input type="tel" id="email" placeholder="example@host.com" minlength="10" maxlength="50" required><br><br>
+
+        <label for="phone">Phone:</label>
+        <input type="phone" id="phone" placeholder="123-456-7890" minlength="12" maxlength="12" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+
+        <label for="bday">Birthday:</label>
+        <input type="date" id="bday"><br><br>
+
+        <label type="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"></input><br><br>
+
+        <label for="title">Title:</label>
+            <label for="Mr.">Mister:</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Ms.">Miss:</label>
+            <input type="radio" id="Ms." value="Ms." name="title">
+            <label for="Phd.">PhD:</label>
+            <input type="radio" id="Phd." value="Phd." name="title">
+            <label for="reather not to inform">None:</label>
+            <input type="radio" id="reather not to inform" value="reather not to inform" name="title"><br><br>
+
+        <label for="payment">Payment:</label>
+        <select id="payment">
+            <option value="visa">VISA</option>
+            <option valeu="mastercard">Mastercard</option>
+            <option value="amex">American Express</option>
+            <option valeu="discovery">Discovery</option>
+            <option valeu="giftcard">Our Giftcard</option>
+        </select><br>
+
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe"><br><br>
+
+        <label for="Comment">Comment:</label>
+        <textarea id="Comment" rows="4" cols="30" minlength="0" maxlength="1000"></textarea><br><br>
+
+        <label for="file">File Submission</label>
+        <input type="file" id="file" accept="image/jpeg, png, ico"><br><br>
+        
+        <input type="submit"><br><br>
+        <input type="reset">
+    </form>
+    <hr>
+
+    <h2>Please see the code below</h2>
+    <hr>
+
+    <h2>Please see the explanation below</h2>
+    <hr>
+
+    <a href="index.html"
+        alt="Back to main page"><h1>Back</h1></a>
+
+</body>
+</html>
