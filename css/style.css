@@ -1,0 +1,32 @@
+/* importan to remember to use # for id and . for classes */
+
+body{
+    background-color: rgb(15, 15, 15);
+}
+h1{
+    color: beige;
+}
+hr{
+    border-color: burlywood;
+}
+#p1{
+    color: red;
+}
+#p2{
+    color: yellow;
+}
+#p3{
+    color: orange;
+}
+#p4{
+    color: blue;
+}
+#p5{
+    color: green;
+}
+.odd{
+    color: pink;
+}
+.even{
+    color: purple;
+}
