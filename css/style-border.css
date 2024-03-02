@@ -1,0 +1,145 @@
+/* types of border-style dotted/dashed/solid/double/groove/ridge/inset/onset/none/hidden */
+body{
+    background-color: rgb(71, 63, 63);
+}
+h1{
+    color: tomato;
+    font-size: 45px;
+}
+#dotted{
+    border-style: dotted; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#dashed{
+    border-style: dashed; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#solid{
+    border-style: solid; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;    
+}
+#double{
+    border-style: double; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#groove{
+    border-style: groove; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#ridge{
+    border-style: ridge; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#inset{
+    border-style: inset; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#outset{
+    border-style: outset; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#hidden{
+    border-style: hidden; 
+    color: aqua; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#none{
+    border-style: none; 
+    border-color: hotpink; 
+    color: aqua;
+    font-size: 30px;
+}
+#mix{
+    border-style: groove solid double dashed; 
+    border-color: hotpink;
+    font-size: 30px;
+}
+#one{
+    border-style: solid;
+    border-width: 7;
+    font-size: 30px;
+}
+#two{
+    border-style: dotted;
+    border-width: 2px;
+    font-size: 30px;
+}
+#three{
+    border-style: solid;
+    border-color: orange;
+    color: red;
+    border-width: medium;
+    font-size: 30px;
+}
+#four{
+    border-style: dashed;
+    border-width: thick;
+    border-color: white;
+    color: green;
+    font-size: 30px;
+}
+#sides{
+    border-width: thick;
+    border-top-style: dotted; 
+    border-top-color: green;
+
+    border-bottom-style: dashed;
+    border-bottom-color: blue;
+
+    border-left-style: double;
+    border-left-color: pink;
+
+    border-right-style: solid;
+    border-right-color: aquamarine;
+
+    font-size: 30px; 
+    color: red;
+}
+#Shorthand{
+    border: 10px dotted orange; font-size: 30px; color: white;
+}
+#round1{
+    border-radius: 5px;
+    border-width: 5px;
+}
+#round2{
+    border-radius: 10px;
+    border-width: 8px;
+}
+#round3{
+    border-radius: 15px;
+    border-width: 13px;
+}
+#round4{
+    border-radius: 20px;
+    border-width: 16px;
+}
+.even{
+    border-style: solid;
+    border-color: blue;
+    color: red;
+    font-size: 30px;
+}
+.odd{
+    border-style: double; 
+    border-color: red;
+    color: blue;
+    font-size: 30px;
+}
